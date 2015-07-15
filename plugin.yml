@@ -3,3 +3,11 @@ author: ItzBulkDev\iJoshuaHD
 main: BetterVIPSlots\Main
 version: 2.0
 api: [1.12.0]
+commands:
+ vips:
+  description: "Set Permissions"
+  permission: vips.command.vips
+permissions:
+  vips.command.vips:
+    default: op
+    description: "/vips <add/remove/list>"
