@@ -9,7 +9,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
 use pocketmine\utils\Config;	
 	
-class VIPSlots extends PluginBase implements Listener{
+class Main extends PluginBase implements Listener{
     public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		
