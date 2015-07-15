@@ -23,10 +23,10 @@ class Main extends PluginBase implements Listener{
     }
     
         public function onJoinEvent(PlayerJoinEvent $event){
-      if($this->vips->exists(strtolower($event->getPlayer()->getName())) and count($this->getServer()->getOnlinePlayers) >= 25){
+      if($this->vips->exists(strtolower($event->getPlayer()->getName())) and count($this->getServer()->getOnlinePlayers()) >= 25){
         return true;
         }else{
-        if(!($this->vips->exists(strtolower($event->getPlayer()->getName()))) and count($this->getServer()->getOnlinePlayers) >= 25){
+        if(!($this->vips->exists(strtolower($event->getPlayer()->getName()))) and count($this->getServer()->getOnlinePlayers()) >= 25){
         $player = $event->getPlayer();
         $player->kick("§4IF YOU WANT TO JOIN WHEN\n§4THE SERVER IS FULL BUY\n§4A RANK AT\n§awww.shop.pluspe.net");
         
