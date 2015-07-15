@@ -28,7 +28,7 @@ class Main extends PluginBase implements Listener{
         }else{
         if(!($this->vips->exists(strtolower($event->getPlayer()->getName()))) and count($this->getServer()->getOnlinePlayers()) >= 25){
         $player = $event->getPlayer();
-        $player->kick("§4IF YOU WANT TO JOIN WHEN\n§4THE SERVER IS FULL BUY\n§4A RANK AT\n§awww.shop.pluspe.net");
+        $player->kick("\n     §4BUY RANKS AT:\n     §awww.shop.pluspe.net\n§4  TO JOIN WHEN THE SERVER IS FULL");
         
       }
       }
