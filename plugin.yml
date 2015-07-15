@@ -2,4 +2,4 @@ name: BetterVIPSlots
 author: ItzBulkDev\iJoshuaHD
 main: BetterVIPSlots\Main
 version: 2.0
-aoi: [1.12.0]
+api: [1.12.0]
