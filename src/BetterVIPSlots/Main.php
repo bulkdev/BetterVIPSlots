@@ -1,6 +1,6 @@
 <?php
 
-namespace BetterVIPSLots;
+namespace BetterVIPSlots;
 
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
